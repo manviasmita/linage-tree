@@ -1,0 +1,50 @@
+
+
+<div class="panel">
+    <form [formGroup]="person" (ngSubmit)="onSubmit()">
+        <div class="tiles">
+            <label class="left-panel">Name</label>
+            <input class="right-panel" type="text" formControlName="name"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Father's Name</label>
+            <input class="right-panel" type="text" formControlName="father"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Grand Father's Name</label>
+            <input class="right-panel" type="text" formControlName="grand"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Village</label>
+            <input class="right-panel" type="text" formControlName="tola"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Tola</label>
+            <input class="right-panel" type="text" formControlName="city"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Current city</label>
+            <input class="right-panel" type="text" formControlName="occupation"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Occupation</label>
+            <input class="right-panel" type="text" formControlName="designation"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Designation</label>
+            <input class="right-panel" type="text" formControlName="phone"/>
+        </div>
+        <div class="tiles">
+            <label class="left-panel">Phone</label>
+            <input class="right-panel" type="text" formControlName="photo"/>
+        </div>
+        <!-- <div class="tiles">
+            <label class="left-panel">Photo</label>
+            <button class="upload">Upload photo</button>
+        </div> -->
+        <div class="tiles  btn-box">
+            <button class="add">Add Person</button>
+        </div>
+    </form>
+    
+</div>

@@ -1,0 +1,51 @@
+.panel{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   border : 1px solid green ;
+   background-color: red;
+   border: none;
+   width: 50%;
+   margin: auto;
+}
+.tiles{
+    display: flex;
+    justify-content: space-between;
+    padding : 10px ;
+}
+.left-panel{
+    display: flex;align-items: center;
+    border : 1px solid red ;
+   font-size: 18px;
+   margin-right: 20px;
+   color: white;
+}
+
+.right-panel{
+    height : 25px ;
+    font-size: 18px;
+    border: none;
+    padding-left: 10px;
+}
+.upload{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: 3px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-box{
+    display: flex;
+    justify-content: right;
+}
+.add{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 3px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
